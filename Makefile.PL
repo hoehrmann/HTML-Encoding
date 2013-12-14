@@ -21,4 +21,14 @@ WriteMakefile(
       PREOP     => 'chmod 600 Makefile.PL',
       TARFLAGS	=> '--group=cpan --owner=bjoern -cvf',
     },
+    META_MERGE        => {
+        'meta-spec' => { version => 2 },
+        resources => {
+        repository => {
+            type => 'git',
+                url => 'https://github.com/hoehrmann/HTML-Encoding.git',
+                web => 'https://github.com/hoehrmann/HTML-Encoding',
+            },
+        },
+    },
 );
