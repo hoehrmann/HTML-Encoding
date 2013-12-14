@@ -523,7 +523,7 @@ HTML::Encoding - Determine the encoding of HTML/XML/XHTML documents
 
 =head1 WARNING
 
-The interface and implementation are guranteed to change before this
+The interface and implementation are guaranteed to change before this
 module reaches version 1.00! Please send feedback to the author of
 this module.
 
@@ -769,7 +769,7 @@ byte order mark in the byte string and returns the return value of
 that routine if it succeeds. Uses xml_declaration_from_octets and
 encoding_from_xml_declaration and returns the encoding for which
 the latter routine found most matches in scalar context, and all
-encodings ordered by number of occurences in list context. It
+encodings ordered by number of occurrences in list context. It
 does not return a value of neither byte order mark not inbound
 declarations declare a character encoding.
 
@@ -944,7 +944,7 @@ information can be determined, defaults to C<1>.
 
 =back
 
-This is furhter possibly inconsistent with XML MIME types that differ
+This is further possibly inconsistent with XML MIME types that differ
 in other ways from application/xml, for example if the MIME Type does
 not allow for a charset parameter in which case applications might be
 expected to ignore the charset parameter if erroneously provided.
